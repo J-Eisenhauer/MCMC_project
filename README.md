@@ -9,5 +9,3 @@ Malescio & Pellicane, Nature Materials 2, 97–100 (2003).
 - `figures and data/`: simulation output (CSV, snapshots) and figures
 
 Requires `numpy`, `numba` and `matplotlib`. Run the scripts in the order above.
-To plot from the uploaded data, place its two folders next to the scripts and rename
-`var_temperature_results` to `temperature_drop_results_parallel`.

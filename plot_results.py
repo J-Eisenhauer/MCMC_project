@@ -118,8 +118,8 @@ def plot_structures_and_rdf():
         ax = axes[1, idx]
         ax.plot(r, g_r, color=GREEN, linewidth=1.8)
         ax.axhline(1.0, color="0.5", linestyle="--", linewidth=1)
-        ax.axvline(SIGMA_0, color="0.7", linestyle=":", linewidth=1)
-        ax.axvline(SIGMA_1, color="0.7", linestyle="-.", linewidth=1)
+        ax.axvline(SIGMA_0, color="0.3", linestyle=":", linewidth=1.8)
+        ax.axvline(SIGMA_1, color="0.3", linestyle="-.", linewidth=1.8)
         ax.set_xlabel(r"$r/\sigma_0$")
 
     axes[1, 0].set_ylabel(r"$g(r)$")
